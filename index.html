@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marksheet Generator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>West Bengal Council of Higher Secondary Education</h1>
+  </header>
+  <main>
+    <form id="marksheet-form">
+      <div class="input-section">
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" required>
+        <label for="rollNo">Roll Number:</label>
+        <input type="number" id="rollNo" required>
+        <h3>Enter Marks in 5 Subjects(Best 5 subject-marks):</h3>
+        <div class="subject-marks">
+        </div>
+      </div>
+      <button type="submit">Generate Marksheet</button>
+    </form>
+    <div class="marksheet-section">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
